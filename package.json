@@ -1,5 +1,18 @@
 {
   "dependencies": {
-    "grunt-screeps": "^1.3.0"
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.6",
+    "typescript": "next"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
   }
 }

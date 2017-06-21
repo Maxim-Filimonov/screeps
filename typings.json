@@ -1,0 +1,8 @@
+{
+    "globalDependencies": {
+        "jest": "registry:dt/jest#19.2.0+20170312200138",
+        "lodash": "registry:dt/lodash#3.10.0+20160619033623",
+        "node": "registry:dt/node#7.0.0+20170322231424",
+        "screeps": "github:screepers/Screeps-Typescript-Declarations/dist/screeps.d.ts"
+    }
+}
