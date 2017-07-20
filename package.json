@@ -7,6 +7,11 @@
     "typescript": "^2.3.4",
     "webpack": "^3.0.0"
   },
+  "scripts": {
+    "dev": "webpack --watch",
+    "test": "jest",
+    "watch:test": "jest --watch"
+  },
   "jest": {
     "moduleFileExtensions": [
       "ts",
